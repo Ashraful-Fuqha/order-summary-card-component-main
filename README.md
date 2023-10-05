@@ -19,12 +19,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.jpg)(./design/desktop-design.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://ashraful-fuqha.github.io/order-summary-card-component-main/)
 
 ## My process
 
@@ -54,5 +53,4 @@ html{
 ```
 
 ## Author
-- Website - [@MjafarsadiqD](https://www.your-site.com)
-- Frontend Mentor - [@MjafarsadiqD](https://www.frontendmentor.io/profile/MjafarsadiqD)git
+- Frontend Mentor - [@MjafarsadiqD](https://www.frontendmentor.io/profile/MjafarsadiqD)
