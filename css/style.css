@@ -1,0 +1,164 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    position: relative;
+    background: url(./images/pattern-background-mobile.svg) no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 20rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: .125rem .625rem .625rem rgba(0, 0, 0, .3);
+    animation: introLoad 1.5s forwards;
+    transition: all .8s ease;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+.Container{
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
+}
+
+section h1 section p .Container p{
+    text-align: center;
+}
+
+h1, strong{
+    color: hsl(223, 47%, 23%);
+}
+
+strong{
+    font-weight: 700;
+}
+
+h1{
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+p{
+    color: hsl(224,23%,55%);
+    line-height: 1.6;
+    letter-spacing: .017rem;
+    text-align: center;
+}
+
+section p{
+    margin-bottom: 1.5rem;
+}
+
+.pricing{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+a{
+    color: hsl(245,75%,52%);
+    font-weight: 600;
+}
+
+p a{
+    font-weight: 900;
+    text-decoration: none;
+    color: hsl(224,23%,55%);
+}
+
+button{
+    width: 100%;
+    padding: 1rem 0;
+    border: 0;
+    background-color: hsl(245,75%,52%);
+    border-radius: .55rem;
+    font-size: .9rem;
+    letter-spacing: .047rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    box-shadow: 0.125rem 0.375rem 0.9375rem rgba(0, 0, 0, 0.8);
+    transition: background-color .5s ease;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.attribution{
+    font-size: 0.6876rem;
+    text-align: center;
+}
+
+.attribution a{
+    color: hsl(228,45%,44%);
+}
+
+.pricing a:hover{
+    color: hsl(270,75%,52%);
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: hsl(270,75%,52%);
+    cursor: grab;
+}
+
+@keyframes introLoad{
+    0%{
+        transform: translateY(-6.25rem);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width:800px){
+    html{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    html{
+        font-size: 17.5px;
+    }
+
+    body{
+        background: url(./images/pattern-background-desktop.svg) no-repeat;
+        background-size: contain;
+        background-color: hsl(225,100%,94%);
+    }
+}
+
+@media only screen and (min-width:1440px){
+    html{
+        font-size: 18px;
+    }
+}
